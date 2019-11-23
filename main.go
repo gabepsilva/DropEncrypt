@@ -40,7 +40,7 @@ func main() {
 	key := os.Args[2]
 	file := os.Args[3]
 
-	if isFile(file) {
+	if !isFile(file) {
 		fmt.Println("File does not exist: ", file)
 		os.Exit(1)
 	}
