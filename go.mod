@@ -1,4 +1,4 @@
-module Dropencrypt
+module  github.com/gabrielpsilva/DropEncrypt
 
 go 1.13
 
