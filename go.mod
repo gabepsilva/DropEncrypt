@@ -1,4 +1,4 @@
-module dropencrypt
+module Dropencrypt
 
 go 1.13
 
