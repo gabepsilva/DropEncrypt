@@ -1,1 +1,3 @@
-github.com/gabrielpsilva/quickcypher v0.0.0-20191120233726-a11fb3e9976f/go.mod h1:NCJRBwvYwxaQpF1W+GWN8fYQBS71RtzwjsedGXrxdD4=
+github.com/gabrielpsilva/Glue v0.0.1 h1:y9bi1hzDfYlC9t5HityO10MdTzqGQhLsz14Vdk4eCGk=
+github.com/gabrielpsilva/glue v0.0.0-20191221164902-b4f5edd8be93 h1:Soz+rXeUZo30WLfr7KLNLzoCRoUOdrqDuC66xhaY4Ac=
+github.com/gabrielpsilva/glue v0.0.0-20191221164902-b4f5edd8be93/go.mod h1:4zfr17xoBmc9P57IutQWUq3FSXGCTbd5W1yQ1uc2c+E=

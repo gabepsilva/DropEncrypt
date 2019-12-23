@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gabrielpsilva/quickcypher"
+	"github.com/gabrielpsilva/glue/v1/cypher"
 	"io/ioutil"
 	"os"
 )
@@ -31,7 +31,7 @@ func main() {
 		fmt.Println("Usage:")
 		fmt.Println("-------")
 		fmt.Println("")
-		fmt.Println("dropencrypt [encript/decript] [key] [file]")
+		fmt.Println("dropencrypt [encrypt/decrypt] [key] [file]")
 		os.Exit(0)
 	}
 
@@ -52,12 +52,12 @@ func main() {
 	}
 
 	if action == "encrypt"{
-		encrypted := quickcypher.Encrypt(string(content), key)
+		encrypted := cypher.Encrypt(string(content), key)
 		writeToFile(string(encrypted), file+".enc")
 	}
 	if action == "decrypt"{
-		decrypted := quickcypher.Decrypt(content, key)
-		writeToFile(decrypted, file[:len(file)-4])
+		decrypted := cypher.Decrypt(content, key)
+		writeToFile(decrypted, file[:len(file)-5])
 	}
 }
 

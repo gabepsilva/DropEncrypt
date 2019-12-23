@@ -15,4 +15,7 @@
 # vendor/
 .idea
 .vscode
+*.drop
+*.json
 dropencrypt
+DropEncrypt
